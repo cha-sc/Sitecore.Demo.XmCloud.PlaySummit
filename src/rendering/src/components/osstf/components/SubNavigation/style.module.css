@@ -1,0 +1,348 @@
+.sub-navigation {
+  width: 100%;
+  display: block;
+  margin-top: 0px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  background-color: rgb(75, 146, 219);
+  background-image: url("https://www.osstf.on.ca/Content/Images/Contextual.jpg");
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+  background-position-x: 0px;
+  background-position-y: -5px;
+}
+.sub-navigation:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.ul {
+  float: right;
+  display: block;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  list-style-type: none;
+}
+.ul:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.li {
+  display: inline-block;
+  margin-top: 0px;
+  text-align: -webkit-match-parent;
+  line-height: 20px;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.li:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.a {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: 0px;
+  font-weight: bold;
+  line-height: normal;
+  margin-left: 0px;
+  padding-top: 5px;
+  margin-right: 0px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  text-decoration-line: none;
+}
+.a:hover {
+  outline-width: 0px;
+}
+.a:focus {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+  outline-offset: -2px;
+  text-decoration-line: underline;
+}
+.a:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 1px;
+}
+.li1 {
+  display: inline-block;
+  margin-top: 0px;
+  text-align: -webkit-match-parent;
+  line-height: 20px;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.li1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.a1 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: 0px;
+  font-weight: bold;
+  line-height: normal;
+  margin-left: 0px;
+  padding-top: 5px;
+  margin-right: 0px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  text-decoration-line: none;
+}
+.a1:hover {
+  outline-width: 0px;
+}
+.a1:focus {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+  outline-offset: -2px;
+  text-decoration-line: underline;
+}
+.a1:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 1px;
+}
+.li2 {
+  display: inline-block;
+  margin-top: 0px;
+  text-align: -webkit-match-parent;
+  line-height: 20px;
+  margin-left: 0px;
+  padding-top: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  margin-bottom: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+}
+.li2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.a2 {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-size: 11px;
+  margin-top: 0px;
+  font-weight: bold;
+  line-height: normal;
+  margin-left: 0px;
+  padding-top: 5px;
+  margin-right: 0px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  text-decoration-line: none;
+}
+.a2:hover {
+  outline-width: 0px;
+}
+.a2:focus {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 5px;
+  outline-offset: -2px;
+  text-decoration-line: underline;
+}
+.a2:focus-visible {
+  outline-color: -webkit-focus-ring-color;
+  outline-style: auto;
+  outline-width: 1px;
+  outline-offset: 1px;
+}
+
+@media(max-width: 768px) {
+  .sub-navigation,.ul {
+    display: block;
+    box-sizing: unset;
+  }
+  .ul {
+    list-style-type: none;
+  }
+  .li {
+    display: inline-block;
+    line-height: 20px;
+  }
+  .li,.a {
+    box-sizing: unset;
+  }
+  .a {
+    font-size: 11px;
+    line-height: normal;
+    background-color: unset;
+  }
+  .li1 {
+    display: inline-block;
+    line-height: 20px;
+  }
+  .li1,.a1 {
+    box-sizing: unset;
+  }
+  .a1 {
+    font-size: 11px;
+    line-height: normal;
+    background-color: unset;
+  }
+  .li2 {
+    display: inline-block;
+    line-height: 20px;
+  }
+  .li2,.a2 {
+    box-sizing: unset;
+  }
+  .a2 {
+    font-size: 11px;
+    line-height: normal;
+    background-color: unset;
+  }
+}
+@media(max-width: 480px) {
+  .sub-navigation {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: rgb(75, 146, 219);
+    background-image: url("https://www.osstf.on.ca/Content/Images/Contextual.jpg");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position-x: 0px;
+    background-position-y: -5px;
+  }
+  .sub-navigation,.ul {
+    display: none;
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .ul {
+    float: right;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    list-style-type: disc;
+  }
+  .li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .li,.a {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .a {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    text-decoration-line: none;
+  }
+  .li1 {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .li1,.a1 {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .a1 {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    text-decoration-line: none;
+  }
+  .li2 {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+  }
+  .li2,.a2 {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+  .a2 {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    background-color: transparent;
+    text-decoration-line: none;
+  }
+}
