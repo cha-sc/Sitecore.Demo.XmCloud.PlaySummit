@@ -136,7 +136,7 @@ export const WithColumns = (props: PromoProps): JSX.Element => {
 export const ChrisSpecial = (props: PromoProps): JSX.Element => {
   if (props.fields) {
     return (
-      <div className={`component promo promo-columns ${props.params.styles}`}>
+      <div className={`component promo promo-columns chris ${props.params.styles}`}>
         <div className="component-content">
           <div className="field-promoicon">
             <JssImage field={props.fields.PromoIcon} />
