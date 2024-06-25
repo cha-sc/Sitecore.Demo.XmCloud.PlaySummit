@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Sitecore.Demo.Edge.Website.Utilities
+namespace XmCloudSXAStarter.Utilities
 {
 
 

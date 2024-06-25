@@ -1,15 +1,5 @@
-# DEMO TEAM CUSTOMIZATION - Add ability to skip building the containers, and use pre-release versions
-[CmdletBinding(DefaultParameterSetName = "no-arguments")]
-Param (
-    [Parameter(HelpMessage = "Whether to skip building the Docker images.")]
-    [switch]$SkipBuild,
-
-    [Parameter(HelpMessage = "Whether to set up the environment with pre-release version of Sitecore products (internal only) .")]
-    [switch]$PreRelease
-)
-# END CUSTOMIZATION
-
 $ErrorActionPreference = "Stop";
+
 . .\upFunctions.ps1
 
 Validate-LicenseExpiry
@@ -19,8 +9,8 @@ $xmCloudHost = $envContent | Where-Object { $_ -imatch "^CM_HOST=.+" }
 $sitecoreDockerRegistry = $envContent | Where-Object { $_ -imatch "^SITECORE_DOCKER_REGISTRY=.+" }
 $sitecoreVersion = $envContent | Where-Object { $_ -imatch "^SITECORE_VERSION=.+" }
 $ClientCredentialsLogin = $envContent | Where-Object { $_ -imatch "^SITECORE_FedAuth_dot_Auth0_dot_ClientCredentialsLogin=.+" }
-# DEMO TEAM CUSTOMIZATION - Removed reading the dynamic Sitecore API key. We use a static API key.
 $xmcloudDockerToolsImage = ($envContent | Where-Object { $_ -imatch "^TOOLS_IMAGE=.+" }).Split("=")[1]
+# DEMO TEAM CUSTOMIZATION - Removed reading the dynamic Sitecore API key. We use a static API key.
 
 $xmCloudHost = $xmCloudHost.Split("=")[1]
 $sitecoreDockerRegistry = $sitecoreDockerRegistry.Split("=")[1]
@@ -39,21 +29,10 @@ if ($ClientCredentialsLogin -eq "true") {
 
 #set nuget version
 $xmCloudBuild = Get-Content "xmcloud.build.json" | ConvertFrom-Json
-# DEMO TEAM CUSTOMIZATION - Custom rendering host name.
-$nodeVersion = $xmCloudBuild.renderingHosts.PlayWebsite.nodeVersion
+$nodeVersion = $xmCloudBuild.renderingHosts.xmcloudpreview.nodeVersion
 if (![string]::IsNullOrWhitespace($nodeVersion)) {
-    # DEMO TEAM CUSTOMIZATION - Custom rendering host name.
-    Set-EnvFileVariable "NODEJS_VERSION" -Value $xmCloudBuild.renderingHosts.PlayWebsite.nodeVersion
+    Set-EnvFileVariable "NODEJS_VERSION" -Value $xmCloudBuild.renderingHosts.xmcloudpreview.nodeVersion
 }
-
-# DEMO TEAM CUSTOMIZATION - Ensure the right NodeJs version is installed
-$currentNodeJsVersion = node -v
-$currentNodeJsVersion = $currentNodeJsVersion.substring(1)
-
-if ($currentNodeJsVersion -ne $nodeVersion) {
-    Write-Warning "ERROR: You are currently running NodeJs $currentNodeJsVersion and this project requires a different version. Please switch to NodeJs $nodeVersion. Then delete the /src/rendering/node_modules folder. Then run this script again."
-}
-# END CUSTOMIZATION
 
 # Double check whether init has been run
 $envCheckVariable = "SITECORE_ADMIN_PASSWORD"
@@ -63,12 +42,6 @@ if (-not $envCheck) {
     if (Test-Path "C:\License") {
         Write-Host "Initializing environment using default values" -ForegroundColor Yellow
         & .\init.ps1 -InitEnv -AdminPassword b -LicenseXmlPath C:\License\license.xml
-        if ($PreRelease) {
-            & .\init-ci.ps1 -PreRelease
-        }
-        else {
-            & .\init-ci.ps1
-        }
     }
     else {
         throw "$envCheckVariable does not have a value. Did you run 'init.ps1 -InitEnv'?"
@@ -82,16 +55,12 @@ docker pull "$($sitecoreDockerRegistry)sitecore-xmcloud-cm:$($sitecoreVersion)"
 Write-Host "Keeping XM Cloud Tools image up to date" -ForegroundColor Green
 docker pull "$($xmcloudDockerToolsImage):$($sitecoreVersion)"
 
-# DEMO TEAM CUSTOMIZATION - Add ability to skip building the containers.
-if (-not $SkipBuild) {
-    # Build all containers in the Sitecore instance, forcing a pull of latest base containers
-    Write-Host "Building containers..." -ForegroundColor Green
-    docker compose build
-    if ($LASTEXITCODE -ne 0) {
-        Write-Error "Container build failed, see errors above."
-    }
+# Build all containers in the Sitecore instance, forcing a pull of latest base containers
+Write-Host "Building containers..." -ForegroundColor Green
+docker compose build
+if ($LASTEXITCODE -ne 0) {
+    Write-Error "Container build failed, see errors above."
 }
-# END CUSTOMIZATION
 
 # Start the Sitecore instance
 Write-Host "Starting Sitecore environment..." -ForegroundColor Green
@@ -146,38 +115,20 @@ if ($LASTEXITCODE -ne 0) {
     Write-Error "Populating Solr managed schema failed, see errors above."
 }
 
-# DEMO TEAM CUSTOMIZATION - Moved index rebuild
+Write-Host "Pushing Sitecore items" -ForegroundColor Green
+dotnet sitecore ser push
 
-Write-Host "Pushing Demo Items" -ForegroundColor Green
-dotnet sitecore ser push 
-# DEMO TEAM CUSTOMIZATION - Added robustness check
-if ($LASTEXITCODE -ne 0) {
-    Write-Error "Serialization push failed, see errors above."
-}
-# END CUSTOMIZATION
+docker compose restart rendering
 
-# DEMO TEAM CUSTOMIZATION - Restart CM after deserialization to clear the caches
-Invoke-WebRequest https://$xmCloudHost/Utilities/Restart.aspx
-
-# DEMO TEAM CUSTOMIZATION - Moved index rebuild here.
 # Rebuild indexes
 Write-Host "Rebuilding indexes ..." -ForegroundColor Green
-# DEMO TEAM CUSTOMIZATION - Added robustness check
 dotnet sitecore index rebuild
-if ($LASTEXITCODE -ne 0) {
-    Write-Error "Rebuild indexes failed, see errors above."
-}
-# END CUSTOMIZATION
-
-# DEMO TEAM CUSTOMIZATION - Removed setting the dynamic Sitecore API key and pushing it to Sitecore. We use a static API key.
 
 if ($ClientCredentialsLogin -ne "true") {
     Write-Host "Opening site..." -ForegroundColor Green
-
-    # DEMO TEAM CUSTOMIZATION - Custom hostnames
-    Start-Process https://$xmCloudHost/sitecore/
-    # DEMO TEAM CUSTOMIZATION - Open the website
-    Start-Process https://www.xmcloudcm.localhost/
+    
+    Start-Process https://xmcloudcm.localhost/sitecore/
+    Start-Process https://www.sxastarter.localhost/
 }
 
 Write-Host ""

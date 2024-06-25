@@ -1,6 +1,6 @@
 ﻿---
-ID: "f103752c-f458-47e0-b322-99785275bdb9"
-Parent: "8f0e1432-3729-462b-ad20-daf067694bcb"
+ID: "c8ff2a20-aba6-409b-ad69-955cd5219d07"
+Parent: "e9b6c600-c6e8-4867-bcb7-8b0dc5f19840"
 Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
 Path: /sitecore/system/Workflows/Demo Workflow/Draft
 SharedFields:
@@ -24,4 +24,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4cd98274-5228-419c-9075-c0c5481b7b3b"
+      Value: "383a405d-0197-47d3-b8a7-655c9ea87739"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13333d94-2475-4b4e-bef0-b37e276e7eea"

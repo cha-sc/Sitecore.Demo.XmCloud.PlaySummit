@@ -1,6 +1,6 @@
 ﻿---
-ID: "1a6f7d0e-f404-45bc-836f-8a16143daa16"
-Parent: "8f0e1432-3729-462b-ad20-daf067694bcb"
+ID: "963cc2a7-2b4c-4d36-9e4f-3b7a286ce620"
+Parent: "e9b6c600-c6e8-4867-bcb7-8b0dc5f19840"
 Template: "4b7e2da9-de43-4c83-88c3-02f042031d04"
 Path: /sitecore/system/Workflows/Demo Workflow/Awaiting Approval
 SharedFields:
@@ -24,4 +24,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "743cd114-f76d-4073-904c-4512f927b871"
+      Value: "9c1404ea-995c-48d0-8a1b-62065e2d1b08"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "439b7162-115c-4ac1-ae18-45aed821acc5"

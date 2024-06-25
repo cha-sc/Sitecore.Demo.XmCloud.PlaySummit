@@ -11,17 +11,6 @@ SharedFields:
   Hint: __Sortorder
   Value: "-100"
 Languages:
-- Language: da
-  Fields:
-  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
-    Hint: __Display name
-    Value: "rediger-panel"
-  Versions:
-  - Version: 1
-    Fields:
-    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
-      Hint: __Revision
-      Value: "4f0213b5-1380-4a5a-ba3c-4cc1a343747e"
 - Language: "de-DE"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
@@ -32,7 +21,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f0213b5-1380-4a5a-ba3c-4cc1a343747e"
+      Value: "572040e3-ed82-448f-9abc-098f8e0944f4"
 - Language: en
   Versions:
   - Version: 1
@@ -50,7 +39,7 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f0213b5-1380-4a5a-ba3c-4cc1a343747e"
+      Value: "572040e3-ed82-448f-9abc-098f8e0944f4"
 - Language: "zh-CN"
   Fields:
   - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
@@ -61,4 +50,4 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4f0213b5-1380-4a5a-ba3c-4cc1a343747e"
+      Value: "572040e3-ed82-448f-9abc-098f8e0944f4"

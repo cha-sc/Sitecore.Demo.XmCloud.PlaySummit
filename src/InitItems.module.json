@@ -4,30 +4,9 @@
     "items": {
         "includes": [
             {
-                "name": "content-root",
-                "path": "/sitecore/content",
-                "scope": "singleItem",
-                "allowedPushOperations": "createAndUpdate"
-            },
-            {
                 "name": "api-key",
-                "path": "/sitecore/system/Settings/Services/API Keys/PLAY",
+                "path": "/sitecore/system/Settings/Services/API Keys/xmcloudpreview",
                 "scope": "singleItem"
-            },
-            {
-                "name": "core-fields",
-                "path": "/sitecore/system/Field types/PLAY Types",
-                "database": "core"
-            },
-            {
-                "name": "image-field-type",
-                "path": "/sitecore/system/Field types/Simple Types/Image",
-                "scope": "singleItem",
-                "database": "core"
-            },
-            {
-                "name": "powershell-scripts-warmup",
-                "path": "/sitecore/system/Modules/PowerShell/Script Library/PLAY"
             },
             {
                 "name": "languages",
@@ -39,18 +18,6 @@
                         "scope": "ignored"
                     }
                 ]
-            },
-            {
-                "name": "play-microsite/settings",
-                "path": "/sitecore/system/Settings/Feature/PLAY"
-            },
-            {
-                "name": "play-microsite/template",
-                "path": "/sitecore/templates/Branches/Feature/PLAY"
-            },
-            {
-                "name": "play-microsite/images",
-                "path": "/sitecore/media library/Feature/PLAY"
             }
         ]
     }

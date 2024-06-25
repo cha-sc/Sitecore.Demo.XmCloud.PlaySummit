@@ -1,7 +1,7 @@
 ﻿using System;
 using Spe.Core.Host;
 
-namespace Sitecore.Demo.Edge.Website.Utilities
+namespace XmCloudSXAStarter.Utilities
 {
 	public partial class InitializeComponentsLibraryId : System.Web.UI.Page
 	{

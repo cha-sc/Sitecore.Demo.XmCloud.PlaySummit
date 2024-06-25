@@ -1,7 +1,7 @@
 ﻿using System;
 using Spe.Core.Host;
 
-namespace Sitecore.Demo.Edge.Website.Utilities
+namespace XmCloudSXAStarter.Utilities
 {
 	public partial class ResetComponentsLibraryId : System.Web.UI.Page
 	{

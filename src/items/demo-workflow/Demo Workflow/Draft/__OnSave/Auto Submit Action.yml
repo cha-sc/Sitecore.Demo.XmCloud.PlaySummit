@@ -1,6 +1,6 @@
 ﻿---
-ID: "634fc085-8f58-4126-88fe-20cd74ecb345"
-Parent: "3faa5f4e-a4ed-4f82-ace4-c2dd0ccf295b"
+ID: "d7b9cf9b-0df7-4550-89e9-a5b9b2781c55"
+Parent: "b253dd58-409d-4070-9ef2-f1bd4d4a1706"
 Template: "26c54307-6d31-46cf-a96b-70678c4fef7d"
 Path: /sitecore/system/Workflows/Demo Workflow/Draft/__OnSave/Auto Submit Action
 SharedFields:
@@ -16,7 +16,7 @@ SharedFields:
   Value: Sitecore.Workflows.Simple.AutoSubmitAction,Sitecore.Kernel
 - ID: "fa367915-b5a1-4e32-b35f-d7c9ecd399eb"
   Hint: Next state
-  Value: "{1A6F7D0E-F404-45BC-836F-8A16143DAA16}"
+  Value: "{963CC2A7-2B4C-4D36-9E4F-3B7A286CE620}"
 Languages:
 - Language: en
   Versions:
@@ -24,4 +24,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "702729f2-32c4-4e6a-b5b3-f2c7105a324b"
+      Value: "33d9a4ad-645c-4c7f-b00e-42b2991f176e"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a088013-1ed0-4ed2-b5e2-c5802ab32948"

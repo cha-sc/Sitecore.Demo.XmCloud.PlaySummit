@@ -1,6 +1,6 @@
 ﻿---
-ID: "4fd48b75-2d9c-4399-beda-1842c22328c3"
-Parent: "836e0687-cdff-4087-9e3b-c8ecafe11746"
+ID: "a845016a-e4fe-4d0f-b540-128f0af4212d"
+Parent: "171ccfd4-8543-428e-9a9b-8e6557e63b6d"
 Template: "66882e97-c8aa-4e37-8901-7a8aa35ed2ed"
 Path: /sitecore/system/Workflows/Demo Workflow/Approved/Auto Publish
 SharedFields:
@@ -20,4 +20,11 @@ Languages:
     Fields:
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0b90f4cc-c991-4f0a-b57b-b0029bc46e4b"
+      Value: "e64ef54d-2803-462b-b3ec-b36f0f417c46"
+- Language: "fr-CA"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a158d18-482b-40e9-9581-8eee2a0db53a"

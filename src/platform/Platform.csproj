@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sitecore.Demo.Edge.Website</RootNamespace>
-    <AssemblyName>Sitecore.Demo.Edge.Website</AssemblyName>
+    <RootNamespace>XmCloudSXAStarter</RootNamespace>
+    <AssemblyName>XmCloudSXAStarter</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -46,7 +46,6 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Spe">
       <HintPath>lib\Spe.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -61,60 +60,184 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Sitecore.XA.Foundation.Multisite" />
+    <PackageReference Include="Sitecore.XA.Foundation.SitecoreExtensions" />
     <PackageReference Include="Sitecore.XmCloud.Kernel" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch" />
     <PackageReference Include="Sitecore.XmCloud.ContentSearch.Linq" />
     <PackageReference Include="Sitecore.XmCloud.LayoutService" />
     <PackageReference Include="Sitecore.XmCloud.Assemblies" />
     <PackageReference Include="Sitecore.Assemblies.SitecoreHeadlessServicesServer" />
-    <PackageReference Include="Sitecore.Connector.CMP" />
-    <PackageReference Include="Sitecore.JavaScriptServices.ViewEngine" />
-    <PackageReference Include="Sitecore.Services.GraphQL" />
-    <PackageReference Include="Sitecore.Services.GraphQL.EdgeSchema" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Sitecore.LoadBalancing.config" />
-    <Content Include="App_Config\Include\Sitecore.Media.config" />
-    <Content Include="App_Config\Include\Sitecore.Demo.Edge.Website.config" />
-    <Content Include="App_Config\Include\Sitecore.Demo.Edge.Website.Custom.config" />
-    <Content Include="sitecore\shell\Themes\Standard\EdgeIcons.zip" />
-    <Content Include="Utilities\ClearAllCaches.aspx" />
-    <Content Include="Utilities\InitializePointOfSale.aspx" />
-    <Content Include="Utilities\ResetComponentsLibraryId.aspx" />
-    <Content Include="Utilities\InitializeComponentsLibraryId.aspx" />
-    <Content Include="Utilities\IndexRebuild.aspx" />
-    <Content Include="Utilities\Restart.aspx" />
-    <Content Include="App_Config\Include\Sitecore.Demo.CustomFields.config" />
-    <Content Include="App_Config\Include\Sitecore.Demo.SerializeDepth.config" />
-    <Content Include="xdts\Web.config.xdt" />
+    <Content Include="App_Config\Include\Sitecore.Demo.Verticals.config" />
     <None Include="Platform.wpp.targets" />
     <None Include="Properties\PublishProfiles\Local.pubxml" />
     <None Include="README.md" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\desktop.ini" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\desktop.ini" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\desktop.ini" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\desktop.ini" />
     <None Include="web.config" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\2_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\3_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\4_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\5_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\application.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\app_promo.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\article_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\article_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\author.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\author_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\author_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\breadcrumbs.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\carousel.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\comparison.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\documents.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\footer.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\hero.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\language.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\link-list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\loan_calculator.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\navigation.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\page_background.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\parallax_banner.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\promo_cta.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\questions.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\rich_text.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\theme.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\128x128\title.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\2_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\3_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\4_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\5_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\application.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\app_promo.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\article_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\article_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\author.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\author_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\author_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\breadcrumbs.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\carousel.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\comparison.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\documents.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\footer.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\hero.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\language.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\link-list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\loan_calculator.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\navigation.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\page_background.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\parallax_banner.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\promo_cta.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\questions.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\rich_text.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\theme.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\16x16\title.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\2_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\3_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\4_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\5_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\application.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\app_promo.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\article_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\article_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\author.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\author_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\author_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\breadcrumbs.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\carousel.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\comparison.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\documents.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\footer.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\hero.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\language.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\link-list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\loan_calculator.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\navigation.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\page_background.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\parallax_banner.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\promo_cta.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\questions.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\rich_text.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\theme.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\24x24\title.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\2_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\3_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\4_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\5_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\application.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\app_promo.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\article_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\article_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\author.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\author_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\author_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\breadcrumbs.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\carousel.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\comparison.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\documents.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\footer.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\hero.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\language.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\link-list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\loan_calculator.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\navigation.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\page_background.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\parallax_banner.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\promo_cta.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\questions.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\rich_text.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\theme.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\32x32\title.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\2_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\3_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\4_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\5_columns.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\application.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\app_promo.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\article_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\article_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\author.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\author_details.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\author_list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\breadcrumbs.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\carousel.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\comparison.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\documents.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\footer.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\hero.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\language.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\link-list.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\loan_calculator.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\navigation.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\page_background.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\parallax_banner.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\promo_cta.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\questions.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\rich_text.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\theme.png" />
+    <Content Include="sitecore\shell\Themes\Standard\DemoIcons\48x48\title.png" />
+    <Content Include="xdts\Web.config.xdt" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Compile Include="CustomFields\CmpListField.cs" />
-    <Compile Include="FieldSerializer\DemoImageFieldSerializer.cs" />
-    <Compile Include="FieldSerializer\GetDemoImageFieldSerializer.cs" />
-    <Compile Include="FieldMapping\DemoFieldTypeFactoryStore.cs" />
-    <Compile Include="Pipelines\LoadBalancingSchemeFix.cs" />
-    <Compile Include="Pipelines\PublishSyncedItem.cs" />
-    <Compile Include="Pipelines\DemoCmpFieldMapping.cs" />
-    <Compile Include="Pipelines\DemoContextExtension.cs" />
-    <Compile Include="Pipelines\ParseXml.cs" />
-    <Compile Include="Utilities\ClearAllCaches.aspx.cs">
-      <DependentUpon>ClearAllCaches.aspx</DependentUpon>
+    <Compile Include="Pipelines\GetLayoutServiceContext\ThemeContext.cs" />
+    <Compile Include="Pipelines\ParseSiteItem\AddThemeProperty.cs" />
+    <Compile Include="Utilities\InitializeComponentsLibraryId.aspx.cs">
+      <DependentUpon>InitializeComponentsLibraryId.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Utilities\ClearAllCaches.aspx.designer.cs">
-      <DependentUpon>ClearAllCaches.aspx</DependentUpon>
+    <Compile Include="Utilities\InitializeComponentsLibraryId.aspx.designer.cs">
+      <DependentUpon>InitializeComponentsLibraryId.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Utilities\InitializePointOfSale.aspx.cs">
-      <DependentUpon>InitializePointOfSale.aspx</DependentUpon>
+    <Compile Include="Utilities\InitializeHostname.aspx.cs">
+      <DependentUpon>InitializeHostname.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Utilities\InitializePointOfSale.aspx.designer.cs">
-      <DependentUpon>InitializePointOfSale.aspx</DependentUpon>
+    <Compile Include="Utilities\InitializeHostname.aspx.designer.cs">
+      <DependentUpon>InitializeHostname.aspx</DependentUpon>
     </Compile>
     <Compile Include="Utilities\ResetComponentsLibraryId.aspx.cs">
       <DependentUpon>ResetComponentsLibraryId.aspx</DependentUpon>
@@ -123,27 +246,11 @@
     <Compile Include="Utilities\ResetComponentsLibraryId.aspx.designer.cs">
       <DependentUpon>ResetComponentsLibraryId.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Utilities\InitializeComponentsLibraryId.aspx.cs">
-      <DependentUpon>InitializeComponentsLibraryId.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Utilities\InitializeComponentsLibraryId.aspx.designer.cs">
-      <DependentUpon>InitializeComponentsLibraryId.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Utilities\IndexRebuild.aspx.cs">
-      <DependentUpon>IndexRebuild.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Utilities\IndexRebuild.aspx.designer.cs">
-      <DependentUpon>IndexRebuild.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Utilities\Restart.aspx.cs">
-      <DependentUpon>Restart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Utilities\Restart.aspx.designer.cs">
-      <DependentUpon>Restart.aspx</DependentUpon>
-    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Utilities\InitializeComponentsLibraryId.aspx" />
+    <Content Include="Utilities\InitializeHostname.aspx" />
+    <Content Include="Utilities\ResetComponentsLibraryId.aspx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,1 +1,1 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InitializeComponentsLibraryId.aspx.cs" Inherits="Sitecore.Demo.Edge.Website.Utilities.InitializeComponentsLibraryId" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="InitializeComponentsLibraryId.aspx.cs" Inherits="XmCloudSXAStarter.Utilities.InitializeComponentsLibraryId" %>
