@@ -1,0 +1,13 @@
+﻿---
+ID: "63272f79-7d38-427b-817c-6feac95f113e"
+Parent: "29b5f2ed-6d82-49f5-b4b7-4e89a39c8d8a"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Promo CTA/KellanovaHero
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f5cb7daf-afb2-4d11-8a59-3ccdc9c3402f"

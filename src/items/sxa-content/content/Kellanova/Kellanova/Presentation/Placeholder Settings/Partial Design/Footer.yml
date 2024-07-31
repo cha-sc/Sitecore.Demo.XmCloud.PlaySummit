@@ -1,0 +1,17 @@
+﻿---
+ID: "86b6665b-0105-429b-8128-bdfedd2fb641"
+Parent: "00714f76-19b8-4419-9c25-f80be2743768"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Kellanova/Kellanova/Presentation/Placeholder Settings/Partial Design/Footer
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-footer"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0fca236-34d0-449a-8c0a-6c1ac15e3bf5"

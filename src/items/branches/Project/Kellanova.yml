@@ -1,0 +1,13 @@
+﻿---
+ID: "e5c72d74-5400-4391-8782-8c0b8acf4237"
+Parent: "a1f6469d-16e1-4a5f-9e49-1aad869a5d11"
+Template: "2f5f8343-2a18-46a4-92a1-0f7ab0452741"
+Path: /sitecore/templates/Branches/Project/Kellanova
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cdc51cc1-d75e-43c6-a468-69d5e5fc0b0b"

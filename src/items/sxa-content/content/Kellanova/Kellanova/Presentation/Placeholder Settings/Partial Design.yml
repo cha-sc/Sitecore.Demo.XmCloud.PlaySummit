@@ -1,0 +1,13 @@
+﻿---
+ID: "00714f76-19b8-4419-9c25-f80be2743768"
+Parent: "79199b8a-067a-4018-b8ce-115fa1c8f087"
+Template: "52288e39-7830-4694-b62d-32a54c6ef7ba"
+Path: /sitecore/content/Kellanova/Kellanova/Presentation/Placeholder Settings/Partial Design
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26f370d9-84b8-42ae-8fdc-710dd8101ae9"

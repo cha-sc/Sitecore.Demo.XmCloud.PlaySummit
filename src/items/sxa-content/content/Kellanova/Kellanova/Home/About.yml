@@ -1,0 +1,46 @@
+﻿---
+ID: "9b044a2c-a918-4361-847f-d067da9a1a8d"
+Parent: "fbb33cd5-da55-47a3-aa38-d3d303f6cd9a"
+Template: "007e4d3d-5dd6-4d3b-8ad9-bd86e59d41b0"
+Path: /sitecore/content/Kellanova/Kellanova/Home/About
+BranchID: "aa757cc9-f2da-4f78-a33d-9d382d5fcf92"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{D8CE556E-0230-45BC-A67B-70BD720218E0}"
+          p:before="*"
+          s:id="{7A1D9A21-B8D7-42F9-9B0B-92ABF8D1974F}"
+          s:par="?Styles=%7b0FC0EA3B-840C-4EE4-B490-C07DC6AC7D23%7d%7c%7bC649AAAB-832E-47E0-A2BD-9EBA54E8417B%7d%7c%7b9AC8E339-151C-4993-97ED-E057AFF0331D%7d%7c%7bE1CDB8BF-195E-4F92-8EA0-DB69DE2F98D5%7d%7c%7bBB43F882-BEA8-4ACB-A106-81E83817BC0D%7d%7c%7b0776533A-31FA-4DBC-AD89-8D2324D4C077%7d%7c%7b84B711C9-2B59-45B1-B2EB-C01406896EAF%7d%7c%7bFA1348F5-5F30-471E-8788-EC55D65DBA8F%7d%7c%7bB4586587-443E-424E-9204-CB38C5DD0B2F%7d%7c%7bF954C85B-AC76-47F9-88C0-08BFDE71BCE3%7d%7c%7b2C0C45DA-63D4-4EF5-927B-401689A18DCB%7d%7c%7b444B3F49-51E1-4A10-A74A-24C5E21653D2%7d%7c%7b2FE41A45-9A48-478A-9712-24EF54722744%7d&amp;GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d&amp;DynamicPlaceholderId=1"
+          s:ph="headless-main" />
+        <r
+          uid="{9769811F-1D5B-4282-A1D1-844144EAEAC8}"
+          p:after="*[1=2]"
+          s:ds="local:/Data/Text 1"
+          s:id="{9C6D53E3-FE57-4638-AF7B-6D68304C7A94}"
+          s:par="?GridParameters=%7b7465D855-992E-4DC2-9855-A03250DFA74B%7d%7c%7b959FDFBB-4691-4A17-816F-7A5330B8216A%7d%7c%7b175CB6DA-CF89-4D56-888C-EB79F514D12F%7d%7c%7b7DF615F7-0A53-42E1-A164-2B36D6126314%7d&amp;FieldNames=%7b227DA5BD-D08F-4200-A71D-7A908DE86731%7d"
+          s:ph="/headless-main/container-1" />
+      </d>
+    </r>
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B8E694EC-3576-4CC6-8628-AEE286A9AB38}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24320485-d4a2-40a6-8b57-9dc8180ccbbb"
+      Hint: Title
+      Value: About
+    - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
+      Hint: NavigationTitle
+      Value: About
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc31056e-a475-42b0-8560-10aefa420b49"

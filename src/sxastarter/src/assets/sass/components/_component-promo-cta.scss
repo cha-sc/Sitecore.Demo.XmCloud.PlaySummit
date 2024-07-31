@@ -153,4 +153,49 @@
       right: unset;
     }
   }
+
+  &.k-hero{
+    .image-wrapper{
+      img{
+        aspect-ratio: auto;
+      }
+    }
+
+    h1{
+      font-size: 3.5rem;
+    }
+  }
+
+  &.background-purple{
+    .container{
+      background-color: $accent-purple;
+      color: $accent-white;
+    }
+  }
+
+  &.background-grey{
+    .container{
+      background-color: $accent-grey;
+      color: $accent-black;
+    }
+  }
+
+  &.background-red{
+    .container{
+      background-color: $accent-red;
+      color: $accent-white;
+    }
+  }
+
+  &.k-small{
+    .promo-eyebrow{
+      font-size: 1.2em;
+    }
+
+    .image-wrapper{
+      img{
+        aspect-ratio: auto;
+      }
+    }
+  }
 }

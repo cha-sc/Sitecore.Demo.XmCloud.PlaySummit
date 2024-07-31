@@ -25,38 +25,44 @@
 }
 
 .button {
-  display: inline-block;
+  // display: inline-block;
+  // text-decoration: none;
+  // font-weight: var(--button-font-weight);
+  // font-size: var(--button-font-size);
+  // border-radius: var(--button-roundness);
+  // padding: var(--button-padding);
+  // transition: all 0.2s ease-in-out;
   text-decoration: none;
-  font-weight: var(--button-font-weight);
-  font-size: var(--button-font-size);
-  border-radius: var(--button-roundness);
-  padding: var(--button-padding);
-  transition: all 0.2s ease-in-out;
+  padding: 5px 40px;
+  border-radius: 5em;
+  font-family: "extrabold", "Century Gothic", sans-serif;
+  font-size: 1.2em;
+  margin: 1em 0;
 }
 
 .button-main {
-  background-color: var(--button-main-bg-color);
-  color: var(--button-main-color);
-  text-transform: var(--button-text-transform);
+  background-color: $accent-red;
+  color: $accent-white;
+  border: none;
 
   a {
-    color: var(--button-main-color);
+    color: $accent-white;
     text-decoration: none;
   }
 
   &:hover {
-    color: var(--button-main-color);
+    color: $accent-white;
+    background-color: $accent-red;
     filter: brightness(125%);
   }
 }
 
 .button-secondary {
-  border: 2px solid var(--button-secondary-color);
-  color: var(--button-secondary-color);
-  text-transform: var(--button-text-transform);
+  background-color: $accent-white;
+  color: $accent-red;
 
   a {
-    color: var(--button-secondary-color);
+    color: $accent-red;
     text-decoration: none;
   }
 
@@ -79,6 +85,8 @@
 .button-simple {
   padding: 0;
   border-radius: 0;
+  border: none;
+  background-color: unset;
   text-decoration: none;
   color: var(--button-simple-color);
   font-weight: var(--button-font-weight);

@@ -1,0 +1,22 @@
+﻿---
+ID: "4e36105f-a70c-44a3-943f-1266d5ed11fd"
+Parent: "007e4d3d-5dd6-4d3b-8ad9-bd86e59d41b0"
+Template: "007e4d3d-5dd6-4d3b-8ad9-bd86e59d41b0"
+Path: /sitecore/templates/Project/Kellanova/Page/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {007E4D3D-5DD6-4D3B-8AD9-BD86E59D41B0}
+    {C14B6289-8AC2-439C-9E5B-40DE9F820C3F}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "24320485-d4a2-40a6-8b57-9dc8180ccbbb"
+      Hint: Title
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bb505a5c-08e9-4215-8aa9-be2dc3b2092d"

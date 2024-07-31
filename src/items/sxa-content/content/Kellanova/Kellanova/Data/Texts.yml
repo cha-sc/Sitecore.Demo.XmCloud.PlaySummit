@@ -1,0 +1,13 @@
+﻿---
+ID: "6c5980de-12fa-499e-b4a5-081520b7d528"
+Parent: "c7fde785-292b-4243-b165-0ddbe3cff775"
+Template: "b762d567-87f5-493c-bb48-0c455d834457"
+Path: /sitecore/content/Kellanova/Kellanova/Data/Texts
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96109188-1f9d-4b6a-944e-0ffa19b41f3d"

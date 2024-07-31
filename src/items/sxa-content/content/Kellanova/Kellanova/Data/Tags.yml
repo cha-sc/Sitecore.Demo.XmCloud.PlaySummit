@@ -1,0 +1,13 @@
+﻿---
+ID: "619cf10a-0a76-4508-a022-780c9065f46f"
+Parent: "c7fde785-292b-4243-b165-0ddbe3cff775"
+Template: "25a6b824-672f-4c15-9b98-0b231c80f81c"
+Path: /sitecore/content/Kellanova/Kellanova/Data/Tags
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be591478-9045-4239-b672-0c3f2bdce98a"

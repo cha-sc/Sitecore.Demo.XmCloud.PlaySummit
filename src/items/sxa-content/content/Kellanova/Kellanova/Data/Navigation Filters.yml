@@ -1,0 +1,13 @@
+﻿---
+ID: "ee5b8e12-e269-41a4-8b5e-96b98b33ea9b"
+Parent: "c7fde785-292b-4243-b165-0ddbe3cff775"
+Template: "9c2d0fdf-4daf-4494-bde7-f857f1924825"
+Path: /sitecore/content/Kellanova/Kellanova/Data/Navigation Filters
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39fe815e-99da-45e7-a445-fadbe21fb2ee"

@@ -1,0 +1,21 @@
+﻿---
+ID: "c018f190-26e5-4f90-9c45-015bb7969e92"
+Parent: "64f4e166-c149-4b69-bbbd-eae762e1e719"
+Template: "6f108e3c-5d57-42f8-a910-c22920269b0a"
+Path: /sitecore/content/Verticals/Services/Data/Link Lists/Kellanova Utility Nav/Investors
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
+      Hint: Link
+      Value: |
+        <link id="{fd4804d1-5970-45f5-ba67-5b94f9d8ca75}" text="Investors" title="Investors" querystring="sc_lang=en&amp;sc_site=Services" anchor="" target="" linktype="internal"/>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7f4607f-6a98-42de-ae50-cc739756097c"

@@ -1,0 +1,17 @@
+﻿---
+ID: "95956b4f-8349-4fd8-8d49-5609773ac305"
+Parent: "00714f76-19b8-4419-9c25-f80be2743768"
+Template: "d2a6884c-04d5-4089-a64e-d27ca9d68d4c"
+Path: /sitecore/content/Kellanova/Kellanova/Presentation/Placeholder Settings/Partial Design/Header
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "sxa-header"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f7d8bdd-0aef-47f9-a6e6-fc000e2c27c8"

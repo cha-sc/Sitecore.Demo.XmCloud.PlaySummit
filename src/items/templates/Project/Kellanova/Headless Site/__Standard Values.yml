@@ -1,0 +1,13 @@
+﻿---
+ID: "1636017b-4662-42fc-9f2e-27ead88357de"
+Parent: "f7ec204f-a156-4478-9da4-ae85e71e1699"
+Template: "f7ec204f-a156-4478-9da4-ae85e71e1699"
+Path: /sitecore/templates/Project/Kellanova/Headless Site/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5067394-4bb3-4fe7-8b80-0ac70f354194"

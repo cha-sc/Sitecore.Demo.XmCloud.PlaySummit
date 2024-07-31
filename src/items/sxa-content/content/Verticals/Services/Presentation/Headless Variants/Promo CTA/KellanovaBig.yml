@@ -1,0 +1,13 @@
+﻿---
+ID: "a6d63510-257f-429b-9e86-cc17c35c7049"
+Parent: "29b5f2ed-6d82-49f5-b4b7-4e89a39c8d8a"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Verticals/Services/Presentation/Headless Variants/Promo CTA/KellanovaBig
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c03aa5c2-b5db-4a6f-90cb-83e2d611c316"

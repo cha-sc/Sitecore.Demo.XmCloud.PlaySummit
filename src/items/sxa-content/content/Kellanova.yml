@@ -1,0 +1,56 @@
+﻿---
+ID: "6b7fe1a6-9e1c-4a71-a68c-4af8f5696426"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "988d2f7b-1ecf-495e-9e7b-1c3cf9acd2b4"
+Path: /sitecore/content/Kellanova
+BranchID: "2d3805b9-3089-44f3-b952-d45c44add7f8"
+SharedFields:
+- ID: "102b58da-2a86-4953-b3cd-c9f91256b657"
+  Hint: PlaceholderSettingsFolder
+  Value: "{D0FF817D-0CAC-47D1-86AE-D0841B09D295}"
+- ID: "1230d2cb-4948-4d43-8a3b-b39978f6f1b3"
+  Hint: Modules
+  Value: |
+    {02CD7086-1F87-41EC-B40F-B92C1226895B}
+    {7B81B847-1891-43B2-BC13-5047A62EC32A}
+    {D315A501-6503-4545-A5D8-B9FECBA1097D}
+    {7BAAA4FC-3051-442D-9BD2-AD720B655E0B}
+    {0DC2E395-4A95-4773-88CA-75B22A130849}
+    {4346A98A-D6E9-491E-A0ED-CD12F524CF4E}
+    {4CBC64BF-8116-48A1-ABAC-DB19103897A6}
+    {1B0A98C0-1801-44A0-85F2-845694FEAFF3}
+    {7574F439-0B48-48BE-BA6B-94B1A3CE01A3}
+    {D912C30C-7A98-4A8D-A094-611D9AF9605D}
+    {6DE1F4E9-815D-491D-923D-D5038100DBEE}
+- ID: "800dc4ed-0846-45ba-b112-19902af240f6"
+  Hint: SharedMediaLibrary
+  Value: "{C9D5672F-09F1-4000-9BCE-D889542CB604}"
+- ID: "853b245f-53e4-4ebe-bab5-299f9de314b6"
+  Hint: RenderingsFolder
+  Value: "{8444D15D-7435-4010-A8BE-09CAE02335CB}"
+- ID: "85a7501a-86d9-4243-9075-0b727c3a6db4"
+  Hint: Name
+  Value: Kellanova
+- ID: "9c596379-f8d4-45d1-a064-cdf1ede2e7c7"
+  Hint: Templates
+  Value: "{35764E3D-07CF-47A3-A702-9C1DAEE8F2EB}"
+- ID: "b6953f8b-56d3-4c90-a6db-885786711e4a"
+  Hint: SettingsFolder
+  Value: "{B643E084-75CB-4F3C-AE76-2EBC1ED9076C}"
+- ID: "c5dbb136-3299-4835-a8ce-bca8b49ba3fa"
+  Hint: BranchesFolder
+  Value: "{E5C72D74-5400-4391-8782-8C0B8ACF4237}"
+- ID: "e90a4413-c111-4951-9b6a-00c4ce7fb289"
+  Hint: MediaLibrary
+  Value: "{7D2371AF-69FE-488E-812E-FEF8CC0528B7}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{8453C078-6D17-4817-9230-91654AFE69C6}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ed86da0-d4d8-4ff1-9828-35f0107cae92"

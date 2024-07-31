@@ -1,0 +1,18 @@
+﻿---
+ID: "e762f353-5b47-4541-b43f-6284b97a98fb"
+Parent: "2b78d67d-76e6-4080-990f-97eee1ae1f4c"
+Template: "c71d8566-35c8-49b7-a84d-9d176e9cbd05"
+Path: /sitecore/content/Kellanova/Kellanova/Settings/Sitemap
+BranchID: "adb13058-5c08-4827-8f30-a269342a2e9e"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{39E85A50-1AC7-4A65-A7F5-C726259BEC26}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7909ca5-73fc-47d6-9012-b3cdc394388e"

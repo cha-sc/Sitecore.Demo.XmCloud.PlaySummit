@@ -1,0 +1,20 @@
+﻿---
+ID: "e15a5d10-6a54-4359-be4b-379271adc0d2"
+Parent: "bb580656-fc0c-44b5-b66c-d0fcea247106"
+Template: "6b8aabef-d650-46e0-97d0-c0b04f7f016b"
+Path: "/sitecore/content/Verticals/Services/Presentation/Styles/Navigation/Main navigation - Horizontal"
+SharedFields:
+- ID: "09147fb2-ebfb-4949-8c8e-26a424409d5e"
+  Hint: Value
+  Value: "navigation-horizontal"
+- ID: "69bb49f3-da64-4b0e-abd6-184b832ff6ab"
+  Hint: Allowed Renderings
+  Value: "{1DEB067F-0BB1-405E-94F5-2ABB537A6160}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "62805818-116b-41b4-a1d3-5f3302dd5b0c"

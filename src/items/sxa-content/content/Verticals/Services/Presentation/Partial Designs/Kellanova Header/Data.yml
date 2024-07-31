@@ -1,0 +1,13 @@
+﻿---
+ID: "821385f1-8b25-4c21-bcc5-c0c7522091f2"
+Parent: "54e4f300-68a7-487c-83f3-03bf9f7540c6"
+Template: "1c82e550-ebcd-4e5d-8abd-d50d0809541e"
+Path: /sitecore/content/Verticals/Services/Presentation/Partial Designs/Kellanova Header/Data
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "09743f01-2aec-4977-a0b7-80505b815fa5"

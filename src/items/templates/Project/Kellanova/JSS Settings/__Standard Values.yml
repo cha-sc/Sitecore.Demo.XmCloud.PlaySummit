@@ -1,0 +1,13 @@
+﻿---
+ID: "1c36c0d6-1241-4b6a-81c6-624bf9d8f764"
+Parent: "3cafa80b-7b06-48aa-a9b9-6418558f367e"
+Template: "3cafa80b-7b06-48aa-a9b9-6418558f367e"
+Path: /sitecore/templates/Project/Kellanova/JSS Settings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d46c4905-e487-485f-b6f2-37e16ffc604d"

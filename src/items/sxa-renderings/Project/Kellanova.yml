@@ -1,0 +1,13 @@
+﻿---
+ID: "8444d15d-7435-4010-a8be-09cae02335cb"
+Parent: "1995806f-0a84-42b5-93b0-88f0e2ff872c"
+Template: "840d4a46-5503-49ec-bf9d-bd090946c63d"
+Path: /sitecore/layout/Renderings/Project/Kellanova
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "513b40c1-3b23-4692-9fc1-c7c0ef80f16c"

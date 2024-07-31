@@ -1,0 +1,23 @@
+﻿---
+ID: "b7b3c64e-a6ed-482d-954d-77c3c13f142a"
+Parent: "35764e3d-07cf-47a3-a702-9c1daee8f2eb"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Project/Kellanova/Page Design Folder
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/document_chart.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{023F5D48-979D-4381-BC5E-149E36ABD3BD}"
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{B0BEFB43-B6EB-4B46-823D-3F97C2A08675}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ebdcada-1d42-45a5-b4bf-618bcaf9a051"

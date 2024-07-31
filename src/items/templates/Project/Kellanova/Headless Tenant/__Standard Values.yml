@@ -1,0 +1,13 @@
+﻿---
+ID: "776124e7-282d-4a8e-bdf4-e9bd87ffe8e0"
+Parent: "988d2f7b-1ecf-495e-9e7b-1c3cf9acd2b4"
+Template: "988d2f7b-1ecf-495e-9e7b-1c3cf9acd2b4"
+Path: /sitecore/templates/Project/Kellanova/Headless Tenant/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fedf3ff-515e-4cb6-9852-d5454dff66d1"

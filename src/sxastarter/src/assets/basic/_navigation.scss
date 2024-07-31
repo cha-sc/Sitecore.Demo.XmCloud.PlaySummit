@@ -29,12 +29,21 @@ $hamburger-margin: 18px;
     ul {
       list-style: none;
       display: flex;
-      gap: 2rem;
+      //gap: 2rem;
       align-items: center;
       margin-bottom: 0;
 
       @include respond-to(mobile-large) {
         flex-direction: column;
+      }
+
+      li {
+        padding: .5em 2em;
+
+        &:hover {
+          background-color: $accent-red;
+          color: $accent-white;
+        }
       }
     }
 
@@ -48,6 +57,11 @@ $hamburger-margin: 18px;
         > a {
           border-width: 0;
           font-weight: bold;
+          font-family: 'medium';
+
+          &:hover {
+            color: $accent-white;
+          }
         }
       }
     }
@@ -94,7 +108,7 @@ $hamburger-margin: 18px;
       .level1 {
         > .navigation-title {
           > a {
-            font-size: 1.5rem;
+            font-size: $font-medium;
           }
         }
       }

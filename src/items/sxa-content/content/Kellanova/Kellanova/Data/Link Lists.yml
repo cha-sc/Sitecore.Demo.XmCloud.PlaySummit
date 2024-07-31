@@ -1,0 +1,13 @@
+﻿---
+ID: "1c45aadf-e6af-402a-8945-7491fce76087"
+Parent: "c7fde785-292b-4243-b165-0ddbe3cff775"
+Template: "c237d144-647a-4afe-aa7b-1570f3e3f139"
+Path: /sitecore/content/Kellanova/Kellanova/Data/Link Lists
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f2d11c2-54e7-4035-8c4c-1835f80b54cc"

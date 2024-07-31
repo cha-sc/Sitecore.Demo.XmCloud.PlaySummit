@@ -3,6 +3,46 @@
 @import 'https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap';
 @import 'https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap';
 
+/* headlines */
+@font-face {
+  font-family: 'extrabold';
+  src: url('https://kellanova.sitecoresandbox.cloud/api/public/content/9051f77b499f41c0b0ceb6f9b6ca5904?v=63de95b1') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body copy */
+@font-face {
+  font-family: 'medium';
+  src: url('https://kellanova.sitecoresandbox.cloud/api/public/content/d0b60620d8f747a2980c75c0d53a1101?v=13a769c0') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* bold in body copy */
+@font-face {
+  font-family: 'bold';
+  src: url('https://kellanova.sitecoresandbox.cloud/api/public/content/2460208c2d10441387dc7aef9945ed23?v=6d20430f') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ital in body copy */
+@font-face {
+  font-family: 'bolditalic';
+  src: url('https://kellanova.sitecoresandbox.cloud/api/public/content/d7f1957c252740ee89433f47004ff991?v=b0f4edde') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* caption */
+@font-face {
+  font-family: 'regular';
+  src: url('https://kellanova.sitecoresandbox.cloud/api/public/content/a2b43aad02ff4d278c67b1b1cede8b41?v=d094462d') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .site-basic {
   --font-family: 'Open Sans', Helvetica, Verdana, Tahoma, sans-serif;
 }
@@ -12,5 +52,6 @@
 }
 
 .site-services {
-  --font-family: 'Epilogue', Helvetica, Arial, sans-serif;
+  //--font-family: 'Epilogue', Helvetica, Arial, sans-serif;
+  --font-family: 'medium', 'Century Gothic', sans-serif;
 }

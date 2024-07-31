@@ -1,0 +1,24 @@
+﻿---
+ID: "e1cdb8bf-195e-4f92-8ea0-db69de2f98d5"
+Parent: "a1971f86-e1ec-46b1-960f-9a6a5ff4ae2d"
+Template: "c6dc7393-15bb-4cd7-b798-ab63e77ebac4"
+Path: /sitecore/content/Kellanova/Kellanova/Presentation/Styles/Content alignment
+BranchID: "75653e9d-3c5c-45d4-823d-1bb04474400b"
+SharedFields:
+- ID: "62ca1c9e-71a4-465f-835e-55bda7bb270b"
+  Hint: Type
+  Value: "icon-button-group-radio"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 275
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{020F4D85-ABD4-4C0E-B987-DDB72873E78D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fc449d2-794b-49cc-bf79-573f4a45aceb"

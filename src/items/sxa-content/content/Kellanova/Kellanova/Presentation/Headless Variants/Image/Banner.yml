@@ -1,0 +1,17 @@
+﻿---
+ID: "b5f5bd57-92e9-4ab1-b4c2-50a8c579ed1b"
+Parent: "8bd9c670-4e47-4cb3-86b3-a14769426d06"
+Template: "4d50cdae-c2d9-4de8-b080-8f992bfb1b55"
+Path: /sitecore/content/Kellanova/Kellanova/Presentation/Headless Variants/Image/Banner
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aaa1e8ed-b9f2-4b40-853d-06ac434439be"

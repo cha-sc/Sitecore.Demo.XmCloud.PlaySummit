@@ -1,0 +1,13 @@
+﻿---
+ID: "c9d5672f-09f1-4000-9bce-d889542cb604"
+Parent: "7d2371af-69fe-488e-812e-fef8cc0528b7"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Project/Kellanova/shared
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5958a769-a198-4d03-ac2c-f604e42b77b0"
