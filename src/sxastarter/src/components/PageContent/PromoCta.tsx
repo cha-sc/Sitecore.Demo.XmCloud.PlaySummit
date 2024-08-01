@@ -161,7 +161,7 @@ export const KellanovaSmall = (props: PromoCtaProps): JSX.Element => {
     >
       <div className="container">
         <div className="row row-gap-4 main-content align-items-center">
-          <div className="text-center text-lg-start">
+          <div className="text-center text-lg-start indent">
             <h6 className="promo-eyebrow">
               <Text field={props.fields.Eyebrow} />
             </h6>
@@ -177,7 +177,7 @@ export const KellanovaSmall = (props: PromoCtaProps): JSX.Element => {
               )}
             </div>
           </div>
-          <div className="col-md-10 mx-auto mx-lg-0">
+          <div className="mx-auto mx-lg-0">
             <div className="image-wrapper">
               <DottedAccent className="dotted-accent-top" />
               <Image
@@ -209,8 +209,8 @@ export const KellanovaBig = (props: PromoCtaProps): JSX.Element => {
     >
       <div className="container">
         <div className="row row-gap-4 main-content align-items-center">
-          <div className="col-lg-5 text-center text-lg-start">
-            <h6 className="eyebrow-accent">
+          <div className="text-center text-lg-start indent">
+            <h6 className="promo-eyebrow">
               <Text field={props.fields.Eyebrow} />
             </h6>
             <h1 className="display-6 fw-bold mb-3">
@@ -225,7 +225,7 @@ export const KellanovaBig = (props: PromoCtaProps): JSX.Element => {
               )}
             </div>
           </div>
-          <div className="col-md-10 mx-auto col-lg-7 mx-lg-0">
+          <div className="mx-auto mx-lg-0">
             <div className="image-wrapper">
               <DottedAccent className="dotted-accent-top" />
               <Image

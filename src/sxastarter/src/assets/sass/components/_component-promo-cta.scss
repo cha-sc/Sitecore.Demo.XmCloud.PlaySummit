@@ -178,6 +178,16 @@
       background-color: $accent-grey;
       color: $accent-black;
     }
+
+    .button-secondary {
+      background-color: $accent-red;
+      color: $accent-white;
+      
+      a {
+        color: $accent-white;
+        text-decoration: none;
+      }
+    }
   }
 
   &.background-red{
@@ -196,6 +206,26 @@
       img{
         aspect-ratio: auto;
       }
+    }
+
+    .indent{
+      margin-top: 20px;
+    }
+  }
+
+  &.k-big{
+    .promo-eyebrow{
+      font-size: 1.2em;
+    }
+
+    .image-wrapper{
+      img{
+        aspect-ratio: auto;
+      }
+    }
+
+    .indent{
+      margin-top: 20px;
     }
   }
 }
