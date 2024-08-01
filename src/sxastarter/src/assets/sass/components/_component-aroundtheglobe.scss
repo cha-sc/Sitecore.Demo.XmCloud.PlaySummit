@@ -1,0 +1,16 @@
+.aroundTheGlobe{
+    &.background-purple{
+        background-color: $accent-purple;
+        color: $accent-white;
+    }
+
+    &.background-grey{
+        background-color: $accent-grey;
+        color: $accent-black;
+    }
+
+    &.background-red{
+        background-color: $accent-red;
+        color: $accent-white;
+    }
+}
